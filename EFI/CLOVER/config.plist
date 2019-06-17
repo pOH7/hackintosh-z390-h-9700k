@@ -280,7 +280,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>agdpmod=pikera</string>
+		<string>-v</string>
 		<key>Debug</key>
 		<false/>
 		<key>Legacy</key>
@@ -379,7 +379,7 @@
 		<key>RadeonDeInit</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x3E910003</string>
+		<string>0x3E9B0007</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -416,13 +416,13 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/28/2018</string>
+		<string>02/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1809280842</string>
+		<string>IM192.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
+		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
@@ -438,7 +438,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>166.0.0.0.0</string>
+		<string>220.250.368.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -454,7 +454,7 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac19,2</string>
 		<key>SerialNumber</key>
 		<string>GENERATE VALUE</string>
 		<key>SmUUID</key>
