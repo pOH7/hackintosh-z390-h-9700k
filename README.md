@@ -1,3 +1,6 @@
+## System
+10.14.6 (18G87)
+
 ## Hardware
 See my [Hardware List](HARDWARE.md)
 
