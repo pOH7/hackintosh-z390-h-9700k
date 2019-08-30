@@ -1,5 +1,5 @@
 ## System
-10.14.6 (18G87)
+10.14.6 (18G95)
 
 ## Hardware
 See my [Hardware List](HARDWARE.md)
