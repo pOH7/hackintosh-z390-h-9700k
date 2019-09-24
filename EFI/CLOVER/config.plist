@@ -95,20 +95,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change HECI to IMEI</string>
 					<key>Disabled</key>
 					<false/>
@@ -326,8 +312,6 @@
 		<array>
 			<string>preboot</string>
 			<string>recovery</string>
-			<string>HD(1,GPT,B308312A-8790-4097-8CF4-1E54E99F3CC4,0x800,0x3A1ED094)</string>
-			<string>HD(2,GPT,71186009-E5D6-465D-9CDA-CDBE3D5CA2E0,0x3A1EE000,0x197800)</string>
 		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>

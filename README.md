@@ -27,5 +27,21 @@ Others not tested is what I do not used.
 - [IntelMausiEthernet.kext](https://bitbucket.org/RehabMan/os-x-intel-network/downloads/)
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
 
+## Tool
+### [USBmap](https://github.com/corpnewt/USBMap)
+
+To verify whether you have correctly setup your EC device, grab CorpNewt's [USBmap tool](https://github.com/corpnewt/USBMap) and choose `Validate USB Power Settings`. This should return the following:
+```
+Checking EC
+ - EC is properly setup
+Checking USBX requirements
+ - SMBIOS not found in IOUSBHostFamily.kext - checking for USBX
+ --> USBX device found: USBX@0
+
+EC Setup Properly:   True
+USBX Setup Properly: True
+```
+### iMessageDebug
+
 ## PS
 EFI-INSTALL is used in my first installation, and it given from the author of [this article](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1816236)
