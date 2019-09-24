@@ -270,12 +270,6 @@
 				<false/>
 			</dict>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-RMCF.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-EC.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -490,10 +484,10 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02032110R5DC771H</string>
+		<string>{{PASTE BOARD SERIAL NUMBER HERE}}</string>
 		<key>ROM</key>
 		<data>
-		LggoTcfB
+		AAAOrK0NAA==
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -509,7 +503,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>GENERATE VALUE</string>
+		<string>{{GENERATE ME}}</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -539,16 +533,14 @@
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>GENERATE VALUE</string>
+		<string>{{GENERATE ME}}</string>
 		<key>SmUUID</key>
-		<string>GENERATE VALUE</string>
+		<string>{{GENERATE ME}}</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>GENERATE VALUE</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
