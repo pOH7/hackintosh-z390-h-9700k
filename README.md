@@ -5,14 +5,14 @@ See my [Hardware List](HARDWARE.md)
 
 ## What's Working
 
--[x] Display
-    -[x] Intel UHD Graphics 630 (DP)
--[x] Ethernet
--[x] Sleep/Wake
--[x] Bluetooth & Wi-Fi
-    -[x] Airdrop
-    -[x] Handoff
--[x] All USB ports (USB 3 speed working)
+- [x] Display
+    - [x] Intel UHD Graphics 630 (DP)
+- [x] Ethernet
+- [x] Sleep/Wake
+- [x] Bluetooth & Wi-Fi
+    - [x] Airdrop
+    - [x] Handoff
+- [x] All USB ports (USB 3 speed working)
 
 Others not tested is what I do not used.
 
