@@ -1,10 +1,20 @@
-## System
-10.14.6 (18G95)
-
 ## Hardware
 See my [Hardware List](HARDWARE.md)
 
-EFI-INSTALL 是[这个帖子](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1816236)的楼主给的
+![about](./images/about.png)
+
+## What's Working
+
+-[x] Display
+    -[x] Intel UHD Graphics 630 (DP)
+-[x] Ethernet
+-[x] Sleep/Wake
+-[x] Bluetooth & Wi-Fi
+    -[x] Airdrop
+    -[x] Handoff
+-[x] All USB ports (USB 3 speed working)
+
+Others not tested is what I do not used.
 
 ## Software
 - [Clover Installer](https://github.com/Dids/clover-builder/releases)
@@ -16,3 +26,6 @@ EFI-INSTALL 是[这个帖子](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid
   - [XHCI-unsupported.kext](https://github.com/RehabMan/OS-X-USB-Inject-All)
 - [IntelMausiEthernet.kext](https://bitbucket.org/RehabMan/os-x-intel-network/downloads/)
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
+
+## PS
+EFI-INSTALL is used in my first installation, and it given from the author of [this article](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1816236)
