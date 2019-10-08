@@ -11,3 +11,4 @@
 - SUPER FLOWER GX550
 - 玄冰400双风扇
 - 先马黑洞ATX-II
+- DELL P2415Q
