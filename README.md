@@ -12,6 +12,7 @@ See my [Hardware List](HARDWARE.md)
 - [x] Bluetooth & Wi-Fi
     - [x] Airdrop
     - [x] Handoff
+    - [x] Sidecar
 - [x] All USB ports (USB 3 speed working)
 
 Others not tested is what I do not used.
