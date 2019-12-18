@@ -1,7 +1,8 @@
 ## Hardware
 See my [Hardware List](HARDWARE.md)
 
-![about](./images/about.png)
+## MacOS
+10.15.2 (19C57)
 
 ## What's Working
 
@@ -46,3 +47,5 @@ USBX Setup Properly: True
 
 ## PS
 EFI-INSTALL is used in my first installation, and it given from the author of [this article](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1816236)
+
+If you find bugs, it would be nice if you let me know so I can fix them. 
