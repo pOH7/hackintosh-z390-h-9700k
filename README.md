@@ -13,8 +13,8 @@ See my [Hardware List](HARDWARE.md)
 - [x] Bluetooth & Wi-Fi
     - [x] Airdrop
     - [x] Handoff
-    - [x] Sidecar
 - [x] All USB ports (USB 3 speed working)
+- [x] CPU Frequency
 
 Others not tested is what I do not used.
 
@@ -43,7 +43,8 @@ Checking USBX requirements
 EC Setup Properly:   True
 USBX Setup Properly: True
 ```
-### iMessageDebug
+### [iMessageDebug](https://mac.softpedia.com/get/System-Utilities/iMessageDebug.shtml)
+### [Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v2-8-6.254559/)
 
 ## PS
 EFI-INSTALL is used in my first installation, and it given from the author of [this article](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1816236)
