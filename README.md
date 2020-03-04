@@ -26,7 +26,7 @@ See my [Hardware List](HARDWARE.md)
 Others not tested is what I do not used.
 
 ## BIOS setting
- - DVMT Pre-Allcated -> `128M`
+ - DVMT Pre-Allocated -> `192M`
  - fast boot -> `disable`
 
 ## Software
