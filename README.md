@@ -2,7 +2,7 @@
 See my [Hardware List](HARDWARE.md)
 
 ## MacOS
-10.15.3 (19D76)
+10.15.4 (19E287)
 
 ## What's Working
 
@@ -58,8 +58,5 @@ USBX Setup Properly: True
 - [Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v2-8-6.254559/)
 - [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 - [VideoProc](https://www.videoproc.com/)
-
-## PS
-EFI-INSTALL is used in my first installation, and it given from the author of [this article](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1816236)
 
 If you have an optimization plan, it would be nice if you let me know so I can improve the EFI. 
