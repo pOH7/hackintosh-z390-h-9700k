@@ -6,7 +6,7 @@ This build is "Vanilla". I used [this guide](https://dortania.github.io/OpenCore
 See my [Hardware List](HARDWARE.md)
 
 ## MacOS
-10.15.4 (19E287)
+10.15.5 (19F101)
 
 ## How to use
 generate PlatformInfo value yourself
@@ -27,6 +27,7 @@ generate PlatformInfo value yourself
     ![fast_charging](img/usb_charging.png)
     - [x] custom usb ports
     ![usb](img/usb.png)
+    ![power](img/power.png)
 - [x] CPU Frequency
 ![cpu](img/cpu.png)
 
