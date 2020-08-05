@@ -1,12 +1,15 @@
 # Hackintosh Catalina Guide for ROG Strix Z390-H Gaming (OpenCore)
 
-This build is "Vanilla". I used [this guide](https://dortania.github.io/OpenCore-Desktop-Guide/) as a starting point.
+This build is "Vanilla". I used [this guide](https://dortania.github.io/OpenCore-Install-Guide/) as a starting point.
 
 ## Hardware
 See my [Hardware List](HARDWARE.md)
 
+## OpenCore
+0.6.0
+
 ## MacOS
-10.15.5 (19F101)
+10.15.6 (19G73)
 
 ## How to use
 generate PlatformInfo value yourself
