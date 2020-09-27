@@ -1,0 +1,59 @@
+= Hackintosh Catalina Guide for ROG Strix Z390-H Gaming (OpenCore)
+
+This build is "Vanilla". I used https://dortania.github.io/OpenCore-Install-Guide/[this guide] as a starting point.
+
+NOTE: If you have an optimization plan, it would be nice if you let me know, so I can improve the EFI.
+
+== Hardware
+See my link:HARDWARE.adoc[Hardware List]
+
+== OpenCore
+0.6.1
+
+== macOS
+10.15.7 (19H2)
+
+== How to use
+Generate PlatformInfo value yourself
+[source,xml]
+----
+<key>Generic</key>
+<dict>
+    <key>AdviseWindows</key>
+    <false/>
+    <key>MLB</key>
+    <string>{{REPLACE THE FIRST 12 WITH THE SERIAL NUMBER}}</string>
+    <key>ROM</key>
+    <data>{{GENERATE ME AFTER SET MLB}}</data>
+    <key>SpoofVendor</key>
+    <true/>
+    <key>SystemProductName</key>
+    <string>iMac19,1</string>
+    <key>SystemSerialNumber</key>
+    <string>{{GENERATE ME UNTIL YOU GET AN INVALID}}</string>
+    <key>SystemUUID</key>
+    <string>{{GENERATE ME}}</string>
+</dict>
+----
+
+=== BIOS setting
+See https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings]
+
+- DVMT Pre-Allocated -> `192M`
+
+NOTE: Some BIOS settings only used for installation.
+
+== What's Working
+* DP Display
+* Ethernet
+* Sleep/Wake
+* Bluetooth & Wi-Fi
+** Airdrop
+** Hand-off & Continuity
+* USB ports
+** iPhone fast charging
+** custom usb ports
+* CPU Frequency
+
+== What's Not Working
+NOTE: Others not tested since I do not use them.
