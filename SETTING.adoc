@@ -1,0 +1,18 @@
+== iGPU UHD630
+only used for computing tasks and doesn't drive a display
+----
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+    <key>AAPL,ig-platform-id</key>
+    <data>AwCRPg==</data>
+</dict>
+----
+
+== GPU Vavi
+----
+<key>boot-args</key>
+<string>agdpmod=pikera</string> // <1>
+----
+<1> Used for disabling boardID on Navi GPUs
+
+IMPORTANT: Don't use if you don't have Navi

@@ -3,6 +3,7 @@
 == Core
 - Motherboard: ROG Strix Z390-H Gaming
 - CPU: Intel i7 9700k
+- GPU: Sapphire Radeon RX 5500 XT 8 GB
 - Wi-Fi & Bluetooth: Broadcom BCM943602CDP + PCI-E Adapter
 
 == Others
@@ -11,4 +12,4 @@
 - Power: SUPER FLOWER GX550
 - CPU Cooler: Dark Rock Pro 4
 - Case: 先马黑洞ATX-II
-- Monitor: DELL P2415Q
+- Monitor: 2 x DELL P2415Q

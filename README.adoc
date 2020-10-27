@@ -39,11 +39,14 @@ Generate PlatformInfo value yourself
 === BIOS setting
 See https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings]
 
-- DVMT Pre-Allocated -> `192M`
+- iGPU Multi-Monitor -> Enabled
+- Primary Display -> PCIE
+- DVMT Pre-Allocated -> 192M
 
 NOTE: Some BIOS settings only used for installation.
 
 == What's Working
+* headless iGPU
 * DP Display
 * Ethernet
 * Sleep/Wake
