@@ -11,7 +11,7 @@ See my link:HARDWARE.adoc[Hardware List]
 0.6.4
 
 == macOS
-10.15.7 (19H2)
+11.1 (20C69)
 
 == How to use
 Generate PlatformInfo value yourself
@@ -37,11 +37,12 @@ Generate PlatformInfo value yourself
 ----
 
 === BIOS setting
-See https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings]
+See https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings]
 
 - iGPU Multi-Monitor -> Enabled
 - Primary Display -> PCIE
 - DVMT Pre-Allocated -> 192M
+- Serial Port -> Off
 
 NOTE: Some BIOS settings only used for installation.
 
