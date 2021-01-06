@@ -8,7 +8,7 @@ NOTE: If you have an optimization plan, it would be nice if you let me know, so 
 See my link:HARDWARE.adoc[Hardware List]
 
 == OpenCore
-0.6.4
+0.6.5
 
 == macOS
 11.1 (20C69)
