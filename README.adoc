@@ -1,50 +1,18 @@
-= Hackintosh Catalina Guide for ROG Strix Z390-H Gaming (OpenCore)
+= Hackintosh Big Sur Guide for ROG Strix Z390-H Gaming (OpenCore)
+:sectnums:
 
-This build is "Vanilla". I used https://dortania.github.io/OpenCore-Install-Guide/[this guide] as a starting point.
+I used https://dortania.github.io/OpenCore-Install-Guide/[this guide] as a starting point.
 
 NOTE: If you have an optimization plan, it would be nice if you let me know, so I can improve the EFI.
 
-== Hardware
-See my link:HARDWARE.adoc[Hardware List]
+[cols=2,options="header"]
+|===
+|macOS
+|OpenCore
 
-== OpenCore
-0.6.5
-
-== macOS
-11.1 (20C69)
-
-== How to use
-Generate PlatformInfo value yourself
-[source,xml]
-----
-<key>Generic</key>
-<dict>
-    <key>AdviseWindows</key>
-    <false/>
-    <key>MLB</key>
-    <string>{{REPLACE THE FIRST 12 WITH THE SERIAL NUMBER}}</string>
-    <key>ROM</key>
-    <data>{{GENERATE ME AFTER SET MLB}}</data>
-    <key>SpoofVendor</key>
-    <true/>
-    <key>SystemProductName</key>
-    <string>iMac19,1</string>
-    <key>SystemSerialNumber</key>
-    <string>{{GENERATE ME UNTIL YOU GET AN INVALID}}</string>
-    <key>SystemUUID</key>
-    <string>{{GENERATE ME}}</string>
-</dict>
-----
-
-=== BIOS setting
-See https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings]
-
-- iGPU Multi-Monitor -> Enabled
-- Primary Display -> PCIE
-- DVMT Pre-Allocated -> 192M
-- Serial Port -> Off
-
-NOTE: Some BIOS settings only used for installation.
+|11.2 (20D64)
+|0.6.6
+|===
 
 == What's Working
 * headless iGPU
@@ -59,5 +27,45 @@ NOTE: Some BIOS settings only used for installation.
 ** custom usb ports
 * CPU Frequency
 
-== What's Not Working
-NOTE: Others not tested since I do not use them.
+//== What's Not Working
+
+== Hardware
+See my link:HARDWARE.adoc[Hardware List]
+
+== How to use
+=== Generate PlatformInfo value yourself
+----
+<key>Generic</key>
+<dict>
+    <key>AdviseWindows</key>
+    <false/>
+    <key>MaxBIOSVersion</key>
+    <false/>
+    <key>MLB</key>
+    <string>{{REPLACE THE FIRST 12 WITH THE SERIAL NUMBER}}</string>
+    <key>ProcessorType</key>
+    <integer>0</integer>
+    <key>ROM</key>
+    <data>{{GENERATE ME AFTER SET MLB}}</data>
+    <key>SpoofVendor</key>
+    <true/>
+    <key>SystemMemoryStatus</key>
+    <string>Auto</string>
+    <key>SystemProductName</key>
+    <string>iMac19,1</string>
+    <key>SystemSerialNumber</key>
+    <string>{{GENERATE ME UNTIL YOU GET AN INVALID}}</string>
+    <key>SystemUUID</key>
+    <string>{{GENERATE ME}}</string>
+</dict>
+----
+
+NOTE: If you don't have a GPU, you should remove `agdpmod=pikera` from boot-args, and use `07009B3E` as AAPL,ig-platform-id.
+
+=== BIOS setting
+- iGPU Multi-Monitor -> Enabled
+- Primary Display -> PCIE
+- DVMT Pre-Allocated -> 192M
+- Serial Port -> Off
+
+NOTE: You should see https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings], and some BIOS settings only used for installation.

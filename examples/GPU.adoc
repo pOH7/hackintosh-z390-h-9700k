@@ -1,0 +1,21 @@
+= with Navi GPUs (RX 5000 series)
+
+== DeviceProperties / Add
+----
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+    <key>AAPL,ig-platform-id</key>
+    <data>AwCRPg==</data> # <1>
+</dict>
+----
+1. Used when the Desktop iGPU is only used for computing tasks and doesn't drive a display
+
+NOTE: `AwCRPg==` is Base64 value after reversed, origin is `0300913E`
+
+== NVRAM / Add / 7C436110-AB2A-4BBB-A880-FE41995C9F82
+----
+<key>boot-args</key>
+<string>agdpmod=pikera</string>
+----
+
+IMPORTANT: Don't use if you don't have Navi

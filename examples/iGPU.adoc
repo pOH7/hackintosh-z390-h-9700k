@@ -1,0 +1,13 @@
+= with iGUP (UHD630)
+
+== DeviceProperties / Add
+----
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+    <key>AAPL,ig-platform-id</key>
+    <data>BwCbPg==</data> # <1>
+</dict>
+----
+1. Used when the Desktop iGPU is used to drive a display
+
+NOTE: `BwCbPg==` is Base64 value after reversed, origin is `07009B3E`
