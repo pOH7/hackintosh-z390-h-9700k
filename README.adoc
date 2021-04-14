@@ -10,8 +10,8 @@ NOTE: If you have an optimization plan, it would be nice if you let me know, so 
 |macOS
 |OpenCore
 
-|11.2.2 (20D80)
-|0.6.7
+|11.2.3 (20D91)
+|0.6.8
 |===
 
 == What's Working
