@@ -3,15 +3,15 @@
 
 I used https://dortania.github.io/OpenCore-Install-Guide/[this guide] as a starting point.
 
-NOTE: If you have an optimization plan, it would be nice if you let me know, so I can improve the EFI.
+[NOTE]
+If you have an optimization plan, it would be nice if you let me know, so I can improve the EFI.
 
 [cols=2,options="header"]
 |===
 |macOS
 |OpenCore
-
-|11.2.3 (20D91)
-|0.6.8
+|11.3.1 (20E241)
+|0.6.9
 |===
 
 == What's Working
@@ -59,8 +59,8 @@ See my link:HARDWARE.adoc[Hardware List]
     <string>{{GENERATE ME}}</string>
 </dict>
 ----
-
-NOTE: If you don't have a GPU, you should remove `agdpmod=pikera` from boot-args, and use `07009B3E` as AAPL,ig-platform-id.
+[NOTE]
+If you don't have a GPU, you should remove `agdpmod=pikera` from boot-args, and use `07009B3E` as AAPL,ig-platform-id.
 
 === BIOS setting
 - iGPU Multi-Monitor -> Enabled
@@ -68,4 +68,5 @@ NOTE: If you don't have a GPU, you should remove `agdpmod=pikera` from boot-args
 - DVMT Pre-Allocated -> 192M
 - Serial Port -> Off
 
-NOTE: You should see https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings], and some BIOS settings only used for installation.
+[NOTE]
+You should see https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings[Intel BIOS settings], and some BIOS settings only used for installation.
