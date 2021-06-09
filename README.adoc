@@ -10,8 +10,8 @@ If you have an optimization plan, it would be nice if you let me know, so I can 
 |===
 |macOS
 |OpenCore
-|11.3.1 (20E241)
-|0.6.9
+|11.4 (20F71)
+|0.7.0
 |===
 
 == What's Working
@@ -37,7 +37,7 @@ See my link:HARDWARE.adoc[Hardware List]
 ----
 <key>Generic</key>
 <dict>
-    <key>AdviseWindows</key>
+    <key>AdviseFeatures</key>
     <false/>
     <key>MaxBIOSVersion</key>
     <false/>
