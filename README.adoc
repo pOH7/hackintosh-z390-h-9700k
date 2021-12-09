@@ -11,7 +11,7 @@ If you have an optimization plan, it would be nice if you let me know, so I can 
 |macOS
 |OpenCore
 |12.0.1 (21A559)
-|0.7.5
+|0.7.6
 |===
 
 == What's Working
