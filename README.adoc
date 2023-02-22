@@ -10,8 +10,8 @@ If you have an optimization plan, it would be nice if you let me know, so I can 
 |===
 |macOS
 |OpenCore
-|13.1 (22C65)
-|0.8.8
+|13.2.1 (22D68)
+|0.8.9
 |===
 
 == What's Working
